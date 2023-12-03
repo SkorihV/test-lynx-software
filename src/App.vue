@@ -107,7 +107,6 @@ export default {
 
       return this.tableData.filter(item => {
         let timestampItem = this.getTimestamp(item.registration)
-        console.log(timestampItem, this.timestampDateFilters.from, timestampItem >= this.timestampDateFilters.from , this.timestampDateFilters.to, timestampItem <= this.timestampDateFilters.to)
         return timestampItem >= this.timestampDateFilters.from && timestampItem <= this.timestampDateFilters.to
       })
     },

@@ -30,7 +30,6 @@ export default {
       return this.formatDate((new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().substr(0, 10))
     },
     inputData(){
-      console.log({from: this.timestampFrom, to: this.timestampTo})
       this.$emit('inputTimestamp', {from: this.timestampFrom, to: this.timestampTo})
     },
   },
