@@ -1,4 +1,4 @@
-# test-links-soft
+# test-lynx-software
 
 ## Project setup
 ```

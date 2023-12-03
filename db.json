@@ -1,0 +1,417 @@
+{
+  "table-headers" : [
+    {
+      "text": "IDS",
+      "align": "start",
+      "value": "IDS"
+    },
+    {
+      "text": "Дата регистрации",
+      "value": "registration"
+    },
+    {
+      "text": "Номер карты",
+      "value": "cardNumber"
+    },
+    {
+      "text": "Пациент",
+      "value": "patientName"
+    },
+    {
+      "text": "Заказчик",
+      "value": "customer"
+    }
+  ],
+  "table-data": [
+    {
+      "IDS": "1",
+      "registration": "04.12.2023",
+      "cardNumber": 31,
+      "patientName": "Иванов Иван Иванович",
+      "customer": "Рога и копыта",
+      "color" : "orange"
+    },
+    {
+      "IDS": "2",
+      "registration": "07.12.2023",
+      "cardNumber": 334,
+      "patientName": "Иванов Петр Иванович",
+      "customer": "Кошкин дом"
+    },
+    {
+      "IDS": "2",
+      "registration": "11.12.2023",
+      "cardNumber": 35,
+      "patientName": "Кузнецов Петр Валерьевич",
+      "customer": "Кошкин дом",
+      "color": "pink"
+    },
+    {
+      "IDS": "1",
+      "registration": "30.12.2023",
+      "cardNumber": 31,
+      "patientName": "Петров Данил Константинович",
+      "customer": "ООО Дядя Вася"
+    },
+    {
+      "IDS": 0,
+      "registration": "17.03.2023 11:45 ",
+      "cardNumber": 698834,
+      "name": "Farley Buckley",
+      "customer": "EVENTAGE",
+      "color": "green"
+    },
+    {
+      "IDS": 1,
+      "registration": "15.05.2023 12:03 ",
+      "cardNumber": 698823,
+      "name": "Lourdes Burks",
+      "customer": "MONDICIL",
+      "color": "pink"
+    },
+    {
+      "IDS": 2,
+      "registration": "03.11.2023 03:36 ",
+      "cardNumber": 6988523,
+      "name": "Kirk Peck",
+      "customer": "ZENSURE",
+      "color": null
+    },
+    {
+      "IDS": 3,
+      "registration": "07.03.2023 04:33 ",
+      "cardNumber": 6988235,
+      "name": "Rich Roman",
+      "customer": "EGYPTO",
+      "color": "blue"
+    },
+    {
+      "IDS": 4,
+      "registration": "25.09.2023 10:54 ",
+      "cardNumber": 6988235,
+      "name": "Levy Mueller",
+      "customer": "RONBERT",
+      "color": "pink"
+    },
+    {
+      "IDS": 5,
+      "registration": "21.01.2023 01:13 ",
+      "cardNumber": 6988235,
+      "name": "Donaldson Olson",
+      "customer": "ISOLOGICA",
+      "color": "blue"
+    },
+    {
+      "IDS": 6,
+      "registration": "09.03.2023 04:04 ",
+      "cardNumber": 6988465,
+      "name": "Holcomb Sandoval",
+      "customer": "FRANSCENE",
+      "color": null
+    },
+    {
+      "IDS": 7,
+      "registration": "30.12.2023 07:29 ",
+      "cardNumber": 698834,
+      "name": "Bryan Hawkins",
+      "customer": "POLARIUM",
+      "color": null
+    },
+    {
+      "IDS": 8,
+      "registration": "02.05.2021 03:55 ",
+      "cardNumber": 698864,
+      "name": "Cortez Hewitt",
+      "customer": "INQUALA",
+      "color": "pink"
+    },
+    {
+      "IDS": 9,
+      "registration": "18.08.2023 09:41 ",
+      "cardNumber": 6988345,
+      "name": "Joyce Branch",
+      "customer": "KOZGENE",
+      "color": null
+    },
+    {
+      "IDS": 10,
+      "registration": "29.07.2023 12:10 ",
+      "cardNumber": 698875,
+      "name": "Gina Holmes",
+      "customer": "CUBIX",
+      "color": "brown"
+    },
+    {
+      "IDS": 11,
+      "registration": "04.12.2021 07:29 ",
+      "cardNumber": 69868,
+      "name": "Martin Steele",
+      "customer": "PLAYCE",
+      "color": "brown"
+    },
+    {
+      "IDS": 12,
+      "registration": "09.06.2023 01:14 ",
+      "cardNumber": 6988567,
+      "name": "Puckett Diaz",
+      "customer": "RENOVIZE",
+      "color": "blue"
+    },
+    {
+      "IDS": 13,
+      "registration": "07.09.2023 09:41 ",
+      "cardNumber": 698885,
+      "name": "Chase Park",
+      "customer": "ANARCO",
+      "color": "pink"
+    },
+    {
+      "IDS": 14,
+      "registration": "07.10.2023 08:26 ",
+      "cardNumber": 6988567,
+      "name": "Delores Hart",
+      "customer": "CUBICIDE",
+      "color": "blue"
+    },
+    {
+      "IDS": 15,
+      "registration": "07.11.2023 10:01 ",
+      "cardNumber": 6988568,
+      "name": "Cunningham Sloan",
+      "customer": "EYERIS",
+      "color": "brown"
+    },
+    {
+      "IDS": 16,
+      "registration": "29.06.2023 02:33 ",
+      "cardNumber": 6988658,
+      "name": "Gentry Vazquez",
+      "customer": "DYMI",
+      "color": null
+    },
+    {
+      "IDS": 17,
+      "registration": "31.01.2023 11:49 ",
+      "cardNumber": 6988568,
+      "name": "Morin Kirk",
+      "customer": "VIRXO",
+      "color": "green"
+    },
+    {
+      "IDS": 18,
+      "registration": "26.08.2021 08:56 ",
+      "cardNumber": 6988345,
+      "name": "Cantu Riley",
+      "customer": "TELEPARK",
+      "color": null
+    },
+    {
+      "IDS": 19,
+      "registration": "12.10.2023 10:00 ",
+      "cardNumber": 6988,
+      "name": "Lewis Wolf",
+      "customer": "PHEAST",
+      "color": "blue"
+    },
+    {
+      "IDS": 20,
+      "registration": "01.06.2023 08:40 ",
+      "cardNumber": 698846478,
+      "name": "Cheryl Combs",
+      "customer": "MATRIXITY",
+      "color": null
+    },
+    {
+      "IDS": 21,
+      "registration": "16.08.2023 06:07 ",
+      "cardNumber": 69884567,
+      "name": "Mendez Swanson",
+      "customer": "OVERPLEX",
+      "color": "brown"
+    },
+    {
+      "IDS": 22,
+      "registration": "08.12.2023 08:08 ",
+      "cardNumber": 69884574,
+      "name": "Shirley Mcgowan",
+      "customer": "RODEMCO",
+      "color": "blue"
+    },
+    {
+      "IDS": 23,
+      "registration": "02.12.2023 02:44 ",
+      "cardNumber": 6988747,
+      "name": "Gould Medina",
+      "customer": "GEEKY",
+      "color": "brown"
+    },
+    {
+      "IDS": 24,
+      "registration": "10.07.2023 08:12 ",
+      "cardNumber": 6988457,
+      "name": "Roberson Howell",
+      "customer": "MEDCOM",
+      "color": null
+    },
+    {
+      "IDS": 25,
+      "registration": "30.01.2023 09:44 ",
+      "cardNumber": 6988475,
+      "name": "Yvette Conner",
+      "customer": "DATAGEN",
+      "color": "pink"
+    },
+    {
+      "IDS": 26,
+      "registration": "09.01.2023 07:40 ",
+      "cardNumber": 6988457,
+      "name": "Morgan White",
+      "customer": "ENTHAZE",
+      "color": "green"
+    },
+    {
+      "IDS": 27,
+      "registration": "06.11.2023 01:37 ",
+      "cardNumber": 6988234,
+      "name": "Leah Craft",
+      "customer": "INTERGEEK",
+      "color": "green"
+    },
+    {
+      "IDS": 28,
+      "registration": "16.11.2021 01:45 ",
+      "cardNumber": 6988234,
+      "name": "Gonzales Jimenez",
+      "customer": "BITTOR",
+      "color": "brown"
+    },
+    {
+      "IDS": 29,
+      "registration": "08.03.2023 02:19 ",
+      "cardNumber": 6988234,
+      "name": "Shelton Nunez",
+      "customer": "COMVEYER",
+      "color": "green"
+    },
+    {
+      "IDS": 30,
+      "registration": "26.11.2023 11:30 ",
+      "cardNumber": 6988234,
+      "name": "Bray Gilmore",
+      "customer": "GYNK",
+      "color": null
+    },
+    {
+      "IDS": 31,
+      "registration": "13.07.2023 05:45 ",
+      "cardNumber": 69345288,
+      "name": "Hewitt Floyd",
+      "customer": "QUILK",
+      "color": "green"
+    },
+    {
+      "IDS": 32,
+      "registration": "20.03.2023 02:25 ",
+      "cardNumber": 69853218,
+      "name": "Elena House",
+      "customer": "SULTRAX",
+      "color": null
+    },
+    {
+      "IDS": 33,
+      "registration": "10.11.2023 06:19 ",
+      "cardNumber": 698428,
+      "name": "Leann Walker",
+      "customer": "CANDECOR",
+      "color": "blue"
+    },
+    {
+      "IDS": 34,
+      "registration": "15.10.2023 03:35 ",
+      "cardNumber": 6923588,
+      "name": "Wade Garza",
+      "customer": "REMOTION",
+      "color": "pink"
+    },
+    {
+      "IDS": 35,
+      "registration": "31.08.2023 07:49 ",
+      "cardNumber": 6235988,
+      "name": "Melody Soto",
+      "customer": "TUBESYS",
+      "color": "green"
+    },
+    {
+      "IDS": 36,
+      "registration": "17.02.2023 08:10 ",
+      "cardNumber": 6923588,
+      "name": "Church Randall",
+      "customer": "UNI",
+      "color": null
+    },
+    {
+      "IDS": 37,
+      "registration": "04.11.2023 11:27 ",
+      "cardNumber": 6923588,
+      "name": "Barlow Lopez",
+      "customer": "BUZZOPIA",
+      "color": "brown"
+    },
+    {
+      "IDS": 38,
+      "registration": "11.10.2023 03:50 ",
+      "cardNumber": 6982358,
+      "name": "Gloria Trevino",
+      "customer": "COMTRACT",
+      "color": "green"
+    },
+    {
+      "IDS": 39,
+      "registration": "25.10.2023 08:16 ",
+      "cardNumber": 625988,
+      "name": "Bianca Aguilar",
+      "customer": "SCENTY",
+      "color": "pink"
+    },
+    {
+      "IDS": 40,
+      "registration": "11.01.2023 08:18 ",
+      "cardNumber": 625988,
+      "name": "Shelley Gray",
+      "customer": "MOTOVATE",
+      "color": null
+    },
+    {
+      "IDS": 41,
+      "registration": "16.10.2021 05:41 ",
+      "cardNumber": 6982358,
+      "name": "Lillie Martinez",
+      "customer": "CENTREGY",
+      "color": "blue"
+    },
+    {
+      "IDS": 42,
+      "registration": "11.12.2023 01:06 ",
+      "cardNumber": 6923588,
+      "name": "Antoinette Bright",
+      "customer": "COMSTRUCT",
+      "color": "green"
+    },
+    {
+      "IDS": 43,
+      "registration": "04.07.2023 03:21 ",
+      "cardNumber": 6923588,
+      "name": "Fulton Sellers",
+      "customer": "EQUITOX",
+      "color": null
+    },
+    {
+      "IDS": 44,
+      "registration": "18.10.2023 02:53 ",
+      "cardNumber": 6923588,
+      "name": "Dawn Miranda",
+      "customer": "VORATAK",
+      "color": "blue"
+    }
+  ]
+}
