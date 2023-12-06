@@ -24,23 +24,25 @@ export default {
       return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`
     },
     currentDate() {
-      return (new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().substr(0, 10)
+      return (new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().substr(0, 10);
     },
     currentDateFormatted() {
-      return this.formatDate((new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().substr(0, 10))
+      return this.formatDate(this.currentDate());
     },
     inputData(){
-      this.$emit('inputTimestamp', {from: this.timestampFrom, to: this.timestampTo})
+      this.$emit('inputTimestamp', {from: this.timestampFrom, to: this.timestampTo});
     },
+    getTimestamp(time) {
+      const date = new Date(time);
+      return date.getTime()
+    }
   },
   computed: {
     timestampFrom () {
-      const date = new Date(this.dateFrom);
-      return date.getTime()
+      return this.getTimestamp(this.dateFrom);
     },
     timestampTo () {
-      const date = new Date(this.dateTo);
-      return date.getTime()
+      return this.getTimestamp(this.dateTo);
     },
     computedDateFormattedFrom () {
       return this.formatDate(this.dateFrom)
@@ -48,14 +50,19 @@ export default {
     computedDateFormattedTo () {
       return this.formatDate(this.dateTo)
     },
+    offsetOnSmAndUp() {
+      return this.$vuetify.breakpoint.smAndDown ? 0 : 2
+    }
   },
 }
 </script>
 
 <template>
-  <v-card class="d-flex align-center px-4">
-    <div class="text-subtitle-1 text--black pr-4">Дата регистрации</div>
-    <v-row>
+  <v-container class="d-flex align-center px-3" fluid>
+    <v-row no-gutters>
+      <v-col cols="12" :offset="offsetOnSmAndUp" lg="2" class="d-flex align-center">
+        Дата регистрации:
+      </v-col>
       <v-col
         cols="12"
         lg="2"
@@ -76,6 +83,7 @@ export default {
               persistent-hint
               prepend-icon="mdi-calendar"
               v-bind="attrs"
+              readonly
               @blur="dateFrom = parseDate(dateFormattedFrom)"
               v-on="on"
             ></v-text-field>
@@ -90,6 +98,7 @@ export default {
       <v-col
         cols="12"
         lg="2"
+        class="mx-lg-3"
       >
         <v-menu
           v-model="menu2"
@@ -120,7 +129,7 @@ export default {
       </v-col>
       <v-col cols="12" lg="2">
         <v-btn
-          class="ma-2 success"
+          class="ma-lg-2 success"
           color="green lighten-1"
           @click="inputData"
         >
@@ -132,7 +141,7 @@ export default {
         </v-btn>
       </v-col>
     </v-row>
-  </v-card>
+  </v-container>
 </template>
 
 <style scoped>

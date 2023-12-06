@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-  <v-container>
+  <v-container fluid>
     <v-data-table
       :headers="tableHeaders"
       :items="tableData"

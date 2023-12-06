@@ -56,7 +56,7 @@ export default {
     toggleMini() {
       this.isMini = !this.isMini
       this.$emit('toggleMini')
-    }
+    },
   },
   watch: {
     IDS() {
@@ -73,8 +73,8 @@ export default {
 </script>
 
 <template>
-  <div>
-    <v-container pa-0>
+<div>
+    <v-container>
       <div class="
         text-lg-body-1
         d-flex
@@ -135,8 +135,6 @@ export default {
         prepend-icon="mdi mdi-account-group"
       ></v-select>
     </v-container>
-
-
   </div>
 </template>
 
